@@ -1,2 +1,2 @@
 [submodule "theme/nest"]
-	ignore = untracked
+	ignore = dirty
