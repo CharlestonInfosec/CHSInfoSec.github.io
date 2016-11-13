@@ -10,6 +10,7 @@ PATH = 'content'
 
 TIMEZONE = 'America/New_York'
 
+
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
@@ -114,9 +115,10 @@ NEST_TAGS_HEADER_SUBTITLE = u'Tags List'
 NEST_TAGS_CONTENT_TITLE = u'Tags List'
 NEST_TAGS_CONTENT_LIST = u'tagged'
 # Static files
-STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico', 'extra/logo.svg']
+STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico', 'extra/logo.svg', 'extra/CNAME']
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},
-    'extra/logo.svg': {'path': 'logo.svg'}
+    'extra/logo.svg': {'path': 'logo.svg'},
+    'extra/CNAME': {'path': 'CNAME'},
 }
