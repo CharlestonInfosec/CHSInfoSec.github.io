@@ -39,7 +39,7 @@ DEFAULT_PAGINATION = 10
 
 
 # NEST Template
-THEME = 'nest'
+THEME = '../pelican-themes/nest'
 SITESUBTITLE = u'CHSInfoSec'
 # Minified CSS
 NEST_CSS_MINIFY = True
