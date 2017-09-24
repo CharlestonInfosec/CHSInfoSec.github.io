@@ -2,6 +2,7 @@ Title: Hacker Math
 Date: 2017-09-24 08:00
 Modified: 2017-09-24 08:00
 Category: fundementals, math
+Illustration: hackermath.jpg
 Tags: fundementals, math, programming
 Slug: hacker-math-intro
 Authors: TJ Nelson
