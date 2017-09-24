@@ -1,6 +1,6 @@
 Title: Hacker Math
-Date: 2017-20-07 08:00
-Modified: 2017-20-07 08:00
+Date: 2017-09-24 08:00
+Modified: 2017-09-24 08:00
 Category: fundementals, math
 Tags: fundementals, math, programming
 Slug: hacker-math-intro
