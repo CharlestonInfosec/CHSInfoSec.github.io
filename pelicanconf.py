@@ -29,8 +29,8 @@ LINKS = (('BSidesCHS', 'http://bsidescharleston.com/'),
          ('CharlestonISSA', 'http://CharlestonISSA.org/'))
 
 # Social widget
-SOCIAL = (('Meetup', '#'),
-          ('Twitter', '#'),)
+SOCIAL = (('Meetup', 'https://www.meetup.com/chsinfosec'),
+          ('Twitter', 'https://twitter.com/chsinfosecgroup'),)
 
 DEFAULT_PAGINATION = 10
 
