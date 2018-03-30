@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Charleston InfoSec Group</title><link href="http://chsinfosec.org/" rel="alternate"></link><link href="http://chsinfosec.org/feeds/all.atom.xml" rel="self"></link><id>http://chsinfosec.org/</id><updated>2018-03-30T00:00:00-04:00</updated><entry><title>Reversing py2exe executables</title><link href="http://chsinfosec.org/reversing-py2exe.html" rel="alternate"></link><published>2018-03-30T00:00:00-04:00</published><updated>2018-03-30T00:00:00-04:00</updated><author><name>TJ Nelson</name></author><id>tag:chsinfosec.org,2018-03-30:/reversing-py2exe.html</id><summary type="html">&lt;p&gt;This blog post will discuss how to reverse py2exe malware.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Reversing Python (py2exe) Malware&lt;/h1&gt;
 &lt;p&gt;This post will be based on a CHSinfoSec Meetup in March 2018. The Slides from this talk are here.
-https://docs.google.com/presentation/d/1zBMxeLYEnb2uZE-sYf4v-dovIjEyUm0HWmCB26stiBk/edit?usp=sharing&lt;/p&gt;
+&lt;a href="https://docs.google.com/presentation/d/1zBMxeLYEnb2uZE-sYf4v-dovIjEyUm0HWmCB26stiBk/edit?usp=sharing"&gt;Reversing Python Malware Slides&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Below you will find the source code for the scripts used as well as links to videos showing the process.&lt;/p&gt;
 &lt;h3&gt;Extract Additional Imports from PE Overlays&lt;/h3&gt;
 &lt;p&gt;get_overlay.py:&lt;/p&gt;
