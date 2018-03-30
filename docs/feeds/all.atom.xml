@@ -25,10 +25,10 @@
 
 &lt;p&gt;&lt;em&gt;[command]&lt;/em&gt; python get_overlay.py &lt;em&gt;&amp;lt;filename&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://asciinema.org/a/jDo4WujW1HiHTAKYkZFdY8T78"&gt;&lt;img alt="asciicast" src="https://asciinema.org/a/jDo4WujW1HiHTAKYkZFdY8T78.png"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;### Extract resources from PE file using wrestool&lt;/p&gt;
+&lt;h3&gt;Extract resources from PE file using wrestool&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;[command]&lt;/em&gt; wrestool -Rax &lt;em&gt;&amp;lt;filename&gt;&lt;/em&gt; -o &lt;em&gt;output_folder&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://asciinema.org/a/171998"&gt;&lt;img alt="asciicast" src="https://asciinema.org/a/171998.png"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;### Extract main python files from PYTHONSCRIPT&lt;/p&gt;
+&lt;h3&gt;Extract main python files from PYTHONSCRIPT&lt;/h3&gt;
 &lt;p&gt;unpack_pythonscript.py:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;marshal&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nn"&gt;imp&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nn"&gt;sys&lt;/span&gt;
 
