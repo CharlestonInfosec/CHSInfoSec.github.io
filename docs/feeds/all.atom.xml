@@ -2,6 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Charleston InfoSec Group</title><link href="http://chsinfosec.org/" rel="alternate"></link><link href="http://chsinfosec.org/feeds/all.atom.xml" rel="self"></link><id>http://chsinfosec.org/</id><updated>2018-03-30T00:00:00-04:00</updated><entry><title>Reversing py2exe executables</title><link href="http://chsinfosec.org/reversing-py2exe.html" rel="alternate"></link><published>2018-03-30T00:00:00-04:00</published><updated>2018-03-30T00:00:00-04:00</updated><author><name>TJ Nelson</name></author><id>tag:chsinfosec.org,2018-03-30:/reversing-py2exe.html</id><summary type="html">&lt;p&gt;This blog post will discuss how to reverse py2exe malware.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Reversing Python (py2exe) Malware&lt;/h1&gt;
 &lt;p&gt;This post will be based on a CHSinfoSec Meetup in March 2018. The Slides from this talk are here:&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://docs.google.com/presentation/d/1zBMxeLYEnb2uZE-sYf4v-dovIjEyUm0HWmCB26stiBk/edit?usp=sharing"&gt;Reversing Python Malware Slides&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The sample from this example is (sha256):83d49f14ebb6641f1b813614a40e7df2d200096b8aae198e6298125f47b55b59&lt;/p&gt;
+&lt;p&gt;You can download it &lt;a href="https://malshare.com/sample.php?action=detail&amp;amp;hash=fb1a2d0db81979e09128630bc2c82c53"&gt;HERE&lt;/a&gt; &lt;strong&gt;BEWARE THIS IS MALWARE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You can also review the original analysis of this sample here: (http://blog.talosintelligence.com/2018/02/cannibalrat-targets-brazil.html)&lt;/p&gt;
 &lt;p&gt;Below you will find the source code for the scripts used as well as links to videos showing the process.&lt;/p&gt;
 &lt;h3&gt;Extract Additional Imports from PE Overlays&lt;/h3&gt;
 &lt;p&gt;get_overlay.py:&lt;/p&gt;
